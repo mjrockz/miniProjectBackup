@@ -1,0 +1,57 @@
+<link href="https://fontawesome.com/icons/chalkboard-user?f=classic&s=solid">
+<link href="https://fontawesome.com/icons/file-certificate?f=sharp&s=solid">
+<link href="https://fontawesome.com/icons/building-columns?f=classic&s=regular">
+
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+    <!-- Sidebar - Brand(TRACK) -->
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="admin_home.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+            <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">T R A C K</div>
+    </a>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider my-0">
+
+    <!-- Nav Item - Dashboard -->
+    <li class="nav-item active">
+        <a class="nav-link" href="{% url 'student info'%}">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Dashboard</span></a>
+    </li>
+
+    <!-- Divider -->
+    <hr class="sidebar-divider">
+
+    <!-- Nav Item - Pages Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="{% url 'upload file' %}">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <span>Upload</span>
+        </a>
+    </li>
+
+    <!-- Nav Item - Utilities Collapse Menu -->
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="{% url 'cert folder' %}" >
+            <i class="fa-sharp fa-solid fa-file-certificate"></i>
+            <span>Certificates </span>
+        </a>
+        
+    </li>
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="" >
+            <i class="fa-regular fa-building-columns"></i>
+            <span>University Rules</span>
+        </a>
+    </li>
+    
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle" style="margin-top: 250px;"></button>
+    </div>
+
+
+</ul>
